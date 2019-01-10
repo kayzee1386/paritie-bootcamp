@@ -36,13 +36,40 @@
       background: #FFF;
     }
 
+    div.card:hover {
+      box-shadow: 0 8px 10px 5px rgba(0,0,0,0.2);
+    }
+
     div.about {
-      margin: 5px
+      margin: 5px;
+    }
+    
+    p.name, p.summary {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    p.name {
+      text-align: center;
+      color: #0267C1;
+    }
+
+    p.summary {
+      color: rgba(48, 47, 47, 0.71);
     }
 
     div.card img {
       width: 100%;
       border-radius: 10px 10px 0 0;
+    }
+
+    div.footer {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    div.footer p {
+      margin: 30px 50px;
     }
   </style>
   <nav>
@@ -58,7 +85,7 @@
             <p class="name">Abdulqudus Abubakre</p>
             <p class="summary">About</p>
             <div class="bio">
-              Abubakre Abdulqudus is a student of computer engineering FUTMinna
+              I'm a final year student of computer engineering from FUTMinna. Using tools such as Javascript, dart, python, HTML, etc, I create web and native apps.  
             </div>
           </div>
         </div>
@@ -73,7 +100,8 @@
     </ul>
   </div>
   <div class="footer">
-
+    <p>Terms and Conditions</p>
+    <p>Copyright <script>document.write(new Date().getFullYear())</script></p>
   </div>
 </body>
 </html>
